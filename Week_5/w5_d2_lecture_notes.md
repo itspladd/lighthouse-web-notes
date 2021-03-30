@@ -28,3 +28,11 @@ A well-made ERD helps organize a database before it exists, and helps make sure 
   - For instance: a class can have many students, a student can take many classes.
   - We need a bridge table called **rosters** or something (**students_classes** is acceptable too)
 - These relationships are enforced by the language used when writing each table, using keywords like **UNIQUE** and **REFERENCES**
+
+## Normalization
+
+**Database normalization** is the process of taking data from non-relational sources and creating relationships.
+
+Normalization has different levels! You generally go through it in stages.
+
+Sometimes "ideal" normalization isn't *necessary* or desirable, because joining data is costly! Sometimes non-normalized data is *faster* to work with in terms of computing speed.
